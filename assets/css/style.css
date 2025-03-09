@@ -1,0 +1,55 @@
+/*logo_header 
+aqui posicionamos a logo no header cabeçalho do site*/
+#logo_header {
+    width: 300px;
+    margin-left: 85px;
+  }
+
+/*seletor universal*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*tag header aqui onde escolhemos a cor do cabeçalho do site */
+
+header{
+  background-color: #ceffff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+/*aqui vamos ajustar posicionamento dos botôes de navegação no bloco nav do header*/
+#nav_header{
+  display: flex;
+  direction: row;
+  gap: 30px;
+  margin-right: 85px;
+}
+
+.iten_nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.icone_iten_nav{
+    font-size: 30px;  
+}
+.link_iten_nav{
+    text-decoration: none;
+    color: #0000;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+
+
+
+
+
+
+
+
